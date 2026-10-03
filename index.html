@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="个人主页" />
+  <title>你的名字 · 个人主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#top">你的名字<span>.</span></a>
+      <div class="nav-links"><a href="#about">关于我</a><a href="#work">作品</a><a href="#contact">联系</a></div>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换深色模式">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">你好，我是</p>
+        <h1>你的名字<span>。</span></h1>
+        <p class="hero-text">一名正在创造有趣事物的设计师 / 开发者。这里是我的个人空间，记录项目、想法和正在发生的故事。</p>
+        <div class="actions"><a class="button primary" href="#work">看看我的作品 <span>↗</span></a><a class="button ghost" href="#contact">联系我</a></div>
+      </div>
+      <div class="hero-card" aria-label="个人介绍卡片"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="card-content"><span class="status-dot"></span><span>目前开放合作</span><strong>Make things<br /><em>that matter.</em></strong><small>Shanghai · China</small></div></div>
+    </section>
+
+    <section class="section container" id="about"><div class="section-label">01 / 关于我</div><div class="about-grid"><h2>用好奇心探索，<br /><span>用行动创造。</span></h2><div><p>我相信好的作品应该既有温度，也能解决真实的问题。平时喜欢在设计、技术和生活的交叉点上寻找灵感。</p><p>把这里换成你的自我介绍：你是谁、擅长什么，以及你希望别人通过这个网站了解你的哪一面。</p><a class="text-link" href="#contact">和我聊聊 <span>→</span></a></div></div></section>
+
+    <section class="section container" id="work"><div class="section-label">02 / 精选作品</div><div class="work-grid"><article class="project project-a"><div class="project-art"><span>01</span><div class="mini-window"><b>new ideas</b><i></i><i></i></div></div><div class="project-info"><h3>项目名称一</h3><p>产品设计 · 2024</p><a href="#contact" aria-label="了解项目一">↗</a></div></article><article class="project project-b"><div class="project-art"><span>02</span><div class="shape"></div></div><div class="project-info"><h3>项目名称二</h3><p>网页开发 · 2024</p><a href="#contact" aria-label="了解项目二">↗</a></div></article><article class="project project-c"><div class="project-art"><span>03</span><div class="quote">“保持<br />好奇。”</div></div><div class="project-info"><h3>项目名称三</h3><p>个人实验 · 2023</p><a href="#contact" aria-label="了解项目三">↗</a></div></article></div></section>
+
+    <section class="contact section container" id="contact"><div class="section-label">03 / 联系我</div><div class="contact-box"><h2>有想法？<br /><span>一起做点什么。</span></h2><a class="mail" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer container"><span>© <span id="year"></span> 你的名字</span><span>Built with curiosity.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
